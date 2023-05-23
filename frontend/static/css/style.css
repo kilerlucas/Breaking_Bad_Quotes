@@ -1,11 +1,11 @@
-/* Reset de estilos */
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Estilos gerais */
+/* Style */
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
@@ -37,7 +37,7 @@ div {
   padding: 40px;
 }
 
-/* Estilos de navegação */
+/* Nav */
 .nav {
   background-color: #222222;
   padding: 1rem;
@@ -65,7 +65,7 @@ div {
   color: #ff5e3a;
 }
 
-/* Estilos de conteúdo */
+/* Contenu */
 #app {
   margin-top: 100px;
 }
@@ -91,7 +91,7 @@ div {
   color: #666666;
 }
 
-/* Estilos personalizados para a página */
+/************************************/
 .custom-header {
   text-align: center;
   padding: 4rem 0;
@@ -127,7 +127,8 @@ div {
   background-color: #e23e1f;
 }
 
-/* Estilos adicionais para tornar o design mais ousado */
+/********************************************************/
+
 body {
   font-weight: 300;
 }
@@ -194,4 +195,4 @@ p {
   font-size: 20px;
 }
 
-/* Adicionar mais estilos personalizados e ousados aqui */
+
