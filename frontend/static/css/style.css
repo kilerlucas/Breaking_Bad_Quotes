@@ -1,0 +1,197 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  background-color: #f8f8f8;
+  color: #333333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  
+}
+
+div {
+  padding: 40px;
+}
+
+/* Estilos de navegação */
+.nav {
+  background-color: #222222;
+  padding: 1rem;
+}
+
+.nav__logo {
+  color: #eeeeee;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #ff5e3a;
+}
+
+/* Estilos de conteúdo */
+#app {
+  margin-top: 100px;
+}
+
+.quote {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quote__text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+.quote__author {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+/* Estilos personalizados para a página */
+.custom-header {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: #ff5e3a;
+  color: #ffffff;
+}
+
+.custom-header h1 {
+  font-size: 48px;
+}
+
+.custom-content {
+  text-align: justify;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #ff5e3a;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #e23e1f;
+}
+
+/* Estilos adicionais para tornar o design mais ousado */
+body {
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.nav {
+  height: 100px;
+  padding: 2rem;
+}
+
+.nav__logo {
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  font-size: 16px;
+}
+
+#app {
+  margin-top: 150px;
+}
+
+.quote__text {
+  font-size: 28px;
+  color: #ff5e3a;
+}
+
+.quote__author {
+  font-size: 20px;
+  color: #777777;
+}
+
+.custom-header {
+  padding: 8rem 0;
+  background-color: #ff5e3a;
+  color: #ffffff;
+}
+
+.custom-content {
+  padding: 4rem;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.custom-button {
+  padding: 1.5rem 3rem;
+  font-size: 20px;
+}
+
+/* Adicionar mais estilos personalizados e ousados aqui */
